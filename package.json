@@ -1,0 +1,36 @@
+{
+  "dependencies": {
+    "@fastify/cors": "^11.0.0",
+    "@fastify/jwt": "^9.1.0",
+    "@fastify/swagger": "^9.4.2",
+    "@fastify/swagger-ui": "^5.2.2",
+    "axios": "^1.8.3",
+    "dotenv": "^16.4.7",
+    "fastify": "^5.2.1",
+    "fastify-swagger": "^5.1.1",
+    "firebase": "^11.4.0",
+    "firebase-admin": "^13.2.0",
+    "graphql": "^16.10.0",
+    "graphql-request": "^7.1.2",
+    "mercurius": "^16.1.0"
+  },
+  "name": "fuelbuddy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "",
+  "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.9",
+    "@types/node": "^22.13.10",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  }
+}
